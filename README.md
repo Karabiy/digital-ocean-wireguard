@@ -35,7 +35,7 @@ Before configuring Terraform, you need to generate an SSH key pair and upload it
    ```
 3. Generate an SSH key pair:
    ```powershell
-   ssh-keygen -t ed25519 -C "vponojko@gmail.com"
+   ssh-keygen -t ed25519 -C "your_email@example.com"
    ```
 4. When prompted, press Enter to accept the default location (typically `C:\Users\username\.ssh\id_rsa`)
 5. Optionally, enter a passphrase

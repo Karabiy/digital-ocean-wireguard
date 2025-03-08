@@ -1,0 +1,35 @@
+# DigitalOcean API token
+do_token = "your_digitalocean_api_token"
+
+# SSH key fingerprint from your DigitalOcean account
+ssh_key_fingerprint = "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+
+# Path to your SSH private key
+ssh_private_key_path = "~/.ssh/id_rsa"
+
+# Name for the droplet
+droplet_name = "wireguard-vpn"
+
+# DigitalOcean region
+# Common options: nyc1, sfo2, fra1, lon1, sgp1
+region = "nyc1"
+
+# Droplet size
+# s-1vcpu-1gb is the cheapest option and typically sufficient for WireGuard
+droplet_size = "s-1vcpu-1gb"
+
+# List of IP addresses allowed to SSH into the droplet
+# For improved security, replace with your own IP address
+allowed_ssh_ips = ["your.public.ip.address/32"]
+
+# UDP port for WireGuard
+wireguard_port = "51820"
+
+# VPC CIDR block
+vpc_cidr = "10.10.10.0/24"
+
+# Number of WireGuard client configurations to generate
+wireguard_clients = 1
+
+# Internal network for WireGuard
+wireguard_network = "10.77.88.0/24" 

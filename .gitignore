@@ -1,0 +1,28 @@
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+
+# SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# OS-specific files
+.DS_Store
+Thumbs.db 
+# SSH keys for Windows
+windows 
+windows.pub
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variables
+terraform.tfvars
+
+

@@ -8,7 +8,7 @@ This project deploys a WireGuard VPN server on a DigitalOcean droplet using Terr
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) (v0.12+)
-- [DigitalOcean Account](https://www.digitalocean.com/)
+- [DigitalOcean Account](https://m.do.co/c/5dbf01bba8e9)
 - DigitalOcean API Token
 - SSH key uploaded to DigitalOcean
 
